@@ -47,7 +47,7 @@ Initial scikit-learn installation and file-path errors were resolved.
 ## Module 4 – Structure-Based Druggability
 
 Name: Ajay Kanaparthy
-Disease: Lung Adenocarcinoma (LUAD)
+Disease working on: Lung Adenocarcinoma (LUAD)
 
 ### Targets
 - SCN7A (Q01118)
