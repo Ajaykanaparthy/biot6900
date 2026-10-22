@@ -26,7 +26,7 @@ Source: https://www.linkedomics.org/data_download/CPTAC-pancan-LUAD/
 ## Module 3 — Computational Lab 3
 
 Name: Ajay Kanaparthy
-Disease: Lung Adenocarcinoma (LUAD)
+Disease working on: Lung Adenocarcinoma (LUAD)
 
 ### Results
 - 15 LUAD targets successfully mapped
@@ -42,3 +42,27 @@ Disease: Lung Adenocarcinoma (LUAD)
 
 ### Issues
 Initial scikit-learn installation and file-path errors were resolved.
+
+
+## Module 4 – Structure-Based Druggability
+
+Name: Ajay Kanaparthy
+Disease: Lung Adenocarcinoma (LUAD)
+
+### Targets
+- SCN7A (Q01118)
+- MASP1 (P48740)
+
+### Results
+- SCN7A RMSD: 5.35 Å
+- MASP1 RMSD: 1.68 Å
+- Best pocket scores: SCN7A 0.982, MASP1 0.687
+- Structure assessment completed
+
+### Files
+- BIOT6900_Module4_Assignment.ipynb
+- structure_assessment_luad.csv
+- BIOT6900_Module4_LUAD_Report.pdf
+
+### Issues
+fpocket was unavailable on Windows. I ran it on Northeastern Explorer and transferred the results back to VS Code.
