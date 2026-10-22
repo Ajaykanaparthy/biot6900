@@ -47,7 +47,7 @@ Initial scikit-learn installation and file-path errors were resolved.
 ## Module 4 – Structure-Based Druggability
 
 Name: Ajay Kanaparthy
-Disease: Lung Adenocarcinoma (LUAD)
+Disease working on: Lung Adenocarcinoma (LUAD)
 
 ### Targets
 - SCN7A (Q01118)
@@ -66,3 +66,22 @@ Disease: Lung Adenocarcinoma (LUAD)
 
 ### Issues
 fpocket was unavailable on Windows. I ran it on Northeastern Explorer and transferred the results back to VS Code.
+
+
+## Module 5 – Variant Interpretation
+
+**Name:** Ajay Kanaparthy  
+**Gene:** CYP2C19
+
+- Analyzed 80 CYP2C19 variants.
+- Evaluated CADD, REVEL, and AlphaMissense.
+- Applied allele frequency filtering.
+- Calibration was unreliable due to insufficient labelled variants.
+- All 33 VUS remained uncertain.
+- AlphaGenome Atlas was skipped because no API key was configured.
+- Completed discordance analysis and submitted the report.
+
+**Files:**
+- BIOT6900_Module5_Part3_Assignment.ipynb
+- pgx_classified_CYP2C19.csv
+- Module5_CYP2C19_Report.pdf
