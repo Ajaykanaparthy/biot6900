@@ -85,3 +85,35 @@ fpocket was unavailable on Windows. I ran it on Northeastern Explorer and transf
 - BIOT6900_Module5_Part3_Assignment.ipynb
 - pgx_classified_CYP2C19.csv
 - Module5_CYP2C19_Report.pdf
+
+- ## Additional Data Sources and Limitations
+
+### Module 3 – Protein Language Models
+
+**Data sources:** My Module 2 LUAD target list (`targets_luad.csv`) and the course-provided protein training panel, human proteome embeddings, clinical target labels, and anchor variant dataset.
+
+**Work completed:** Mapped all 15 targets, trained small-molecule and antibody tractability models, validated with a family-aware split, and re-ranked the LUAD targets.
+
+**Limitations:** The model estimates similarity to previously drugged proteins. It does not prove drug binding. The family-split AUROC was 0.726 and average precision was 0.537.
+
+**Issues:** Initial installation and file-path problems were resolved.
+
+### Module 4 – Structure-Based Druggability
+
+**Data sources:** AlphaFold Protein Structure Database (SCN7A Q01118 and MASP1 P48740), Protein Data Bank (7TJ8 and 4IGD), and the course p53 structural reference.
+
+**Work completed:** Analyzed structure confidence, compared predictions with experimental structures, identified binding pockets using fpocket, and assessed potential druggability.
+
+**Limitations:** Predicted structures do not fully represent protein movement, membrane environments, or interactions with binding partners.
+
+**Issues:** fpocket was unavailable on Windows. I ran it using Northeastern's Explorer cluster and analyzed the results locally.
+
+### Module 5 – Variant Interpretation
+
+**Data sources:** MyVariant.info, ClinVar annotations, CADD, REVEL, AlphaMissense, and gnomAD allele-frequency data.
+
+**Work completed:** Analyzed 80 CYP2C19 variants, evaluated predictor coverage, applied frequency filtering, assessed calibration, identified discordant variants, and exported provisional classifications.
+
+**Limitations:** Only five benign/likely benign variants and no pathogenic/likely pathogenic variants were available for calibration. The evidence was insufficient to reclassify VUS.
+
+**Issues:** AlphaGenome Atlas was skipped because an API key was not configured. No Atlas results were claimed.
