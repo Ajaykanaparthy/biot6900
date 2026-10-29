@@ -1,0 +1,129 @@
+{
+  "status": "PASS",
+  "notebook": "BIOT6900_Module3_Assignment.ipynb",
+  "fresh_kernel_restart_run_all": true,
+  "executed_code_cells": 11,
+  "notebook_source_cells_unchanged": true,
+  "original_notebook_sha256": "7b102f501ddbf1990e792eb6ed4271f99a71330e7afb01f0eba37b0775621146",
+  "executed_notebook_sha256": "cd7209984360914651c35af83227f95a2aa9bab425a823e91610b504b4ed07ed",
+  "backups": {
+    "BIOT6900_Module3_Assignment.ipynb": "archive/portfolio_deliverable_1_originals/BIOT6900_Module3_Assignment.7b102f501ddb.ipynb",
+    "targets_luad_w3.csv": "archive/portfolio_deliverable_1_originals/targets_luad_w3.csv"
+  },
+  "canonical_original_csv_bytes_preserved": true,
+  "canonical_csv_sha256": "4f42f6a18d6ee9cd8771eed15036d75274b6a75e596e0a27eca943b0854eaefa",
+  "fresh_csv_byte_identical": true,
+  "same_15_genes_and_ranks": true,
+  "same_nearest_neighbor_strings": true,
+  "maximum_numeric_differences_from_original_csv": {
+    "week2_score": 0.0,
+    "p_sm": 0.0,
+    "p_ab": 0.0,
+    "final": 0.0
+  },
+  "source_data_hashes": {
+    "module_2\\targets_luad.csv": "db06e00da11042270bc290cb17eeacde27651130139281519130187f4a3d1654",
+    "module_3\\data\\anchor_variants.tsv": "33d3c79f081c487d8061f89ffade240f93f2301dfd8ebbb58b00fbc800dba68e",
+    "module_3\\data\\manifest.json": "681ff753978a67029d1ac9136eb9f2974d97204b778b0190ee655f164a36a5d6",
+    "module_3\\data\\panel.tsv": "0b24b27e9ad84b9cc0e3ffd9603c9d95ee8567a4e49d48e4312cc7652bd55c8f",
+    "module_3\\data\\panel_emb_baseline.npy": "b4375eef0aff16d85a64d1e834e4e0c1cb14553af19026f5adef437be5eb566a",
+    "module_3\\data\\panel_emb_main.npy": "8b548742238e381d642265914fe93b71bebf0954196a3438caa30755a97771ea",
+    "module_3\\data\\proteome.tsv": "4cd718410efef3c0d5f6ffe3abed8ef37d1bed2dee802d7ca5c8b76d4ce89bae",
+    "module_3\\data\\proteome_emb_baseline.npy": "c4d44325634148de8a43803eb9a0901a76dbf29ec3175d8dea24e4a12975b421",
+    "module_3\\data\\proteome_emb_main.npy": "7f57c93a6a33fc424e09f48d591955641d5c85384bc01f7df7bdaa12355260e7",
+    "module_3\\data\\variant_scores_APOE.tsv": "2de442ad33fca7c734457cfb69711f19a9af922729b50781ad943d730fcff1ab",
+    "module_3\\data\\variant_scores_TP53.tsv": "b5cbe8f2014829b2c8955e0b3cd9459568e12c2548ff1191a2b8e2e7ce09d40c",
+    "module_3\\data\\variant_scores_TREM2.tsv": "efb9efa48aa70f2c7832345dfe4c665c8a2051903e42fa6ce903da51100e46db"
+  },
+  "mapped_targets": 15,
+  "unmapped_targets": [],
+  "training_panel_before": 1201,
+  "training_panel_after": 1199,
+  "targets_removed_from_training": [
+    "GDF10",
+    "SCN7A"
+  ],
+  "five_family_folds_have_no_group_overlap": true,
+  "validation_metrics": [
+    {
+      "split": "random",
+      "AUROC": 0.8439705882352941,
+      "average_precision": 0.7240526742923614
+    },
+    {
+      "split": "family",
+      "AUROC": 0.7264549436795995,
+      "average_precision": 0.5370895212082212
+    }
+  ],
+  "chance_average_precision": 0.3336113427856547,
+  "ranking_method": "0.6*percentile_rank(Module2_score) + 0.4*percentile_rank(max(p_sm,p_ab)); ascending percentiles; final descending rank(method='first')",
+  "ranking_tie_handling": "Retain professor's existing arithmetic and method='first'; tiny floating point differences can distinguish apparent printed ties",
+  "embedding_model": {
+    "model": "esmc_300m",
+    "dim": 960,
+    "max_len": 2046,
+    "dtype": "float16"
+  },
+  "dry_run": false,
+  "truncated_target_embeddings": [
+    "COL6A6",
+    "TNXB"
+  ],
+  "anchor_variants_verified": [
+    {
+      "gene": "TP53",
+      "variant": "R175H",
+      "score": -5.974362373352051,
+      "percentile_source": 19.3,
+      "percentile_recomputed": 19.325030132583368,
+      "matching_source_score": true,
+      "wild_type_residue_matches_precursor_sequence": true,
+      "source_substitution_count": 7467
+    },
+    {
+      "gene": "APOE",
+      "variant": "C130R",
+      "score": 7.207705497741699,
+      "percentile_source": 100.0,
+      "percentile_recomputed": 100.0,
+      "matching_source_score": true,
+      "wild_type_residue_matches_precursor_sequence": true,
+      "source_substitution_count": 6023
+    },
+    {
+      "gene": "APOE",
+      "variant": "R176C",
+      "score": -8.55901050567627,
+      "percentile_source": 11.8,
+      "percentile_recomputed": 11.821351485970446,
+      "matching_source_score": true,
+      "wild_type_residue_matches_precursor_sequence": true,
+      "source_substitution_count": 6023
+    },
+    {
+      "gene": "TREM2",
+      "variant": "R47H",
+      "score": -5.155936241149902,
+      "percentile_source": 47.7,
+      "percentile_recomputed": 47.7116704805492,
+      "matching_source_score": true,
+      "wild_type_residue_matches_precursor_sequence": true,
+      "source_substitution_count": 4370
+    }
+  ],
+  "limitations": [
+    "Course-supplied embeddings and labels are reused; model inference was not rerun from sequences",
+    "Clinical-precedence priors are not calibrated probabilities of LUAD drug success",
+    "Group validation applies to training labels, not independent LUAD therapeutic efficacy",
+    "COL6A6 and TNXB embeddings are flagged truncated in the supplied data",
+    "Variant log-likelihood scores and percentiles do not establish pathogenicity"
+  ],
+  "versions": {
+    "python": "3.11.16",
+    "numpy": "2.4.6",
+    "pandas": "2.3.3",
+    "scikit_learn": "1.9.1",
+    "nbformat": "5.11.0"
+  }
+}

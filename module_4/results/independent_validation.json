@@ -1,0 +1,22 @@
+{
+  "independent_validation": "PASS",
+  "source_pocket_descriptor_rows_checked": 215,
+  "lining_atom_entries_checked": 5105,
+  "recomputed_plddt_and_pae_match_all_exported_rows": true,
+  "verdicts": {
+    "SCN7A": {
+      "keep": 109,
+      "reject": 56
+    },
+    "MASP1": {
+      "keep": 49,
+      "reject": 1
+    }
+  },
+  "preserved_zip_members_verified_against_original_files": 452,
+  "original_legacy_csv_byte_identical": true,
+  "all_original_assignment_headings_preserved": true,
+  "executed_code_cells": 11,
+  "saved_error_outputs": 0,
+  "embedded_notebook_figures": 4
+}

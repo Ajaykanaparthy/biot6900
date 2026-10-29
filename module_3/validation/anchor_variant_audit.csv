@@ -1,0 +1,5 @@
+gene,variant,score,percentile_source,percentile_recomputed,matching_source_score,wild_type_residue_matches_precursor_sequence,source_substitution_count
+TP53,R175H,-5.974362373352051,19.3,19.325030132583368,True,True,7467
+APOE,C130R,7.207705497741699,100.0,100.0,True,True,6023
+APOE,R176C,-8.55901050567627,11.8,11.821351485970446,True,True,6023
+TREM2,R47H,-5.155936241149902,47.7,47.7116704805492,True,True,4370

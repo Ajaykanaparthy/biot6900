@@ -1,0 +1,3 @@
+gene,residues,mean_pLDDT,pct_above_90,pct_below_50,disordered_stretches
+SCN7A,1682,73.74,14.63,14.74,"437-473, 770-914, 1646-1682"
+MASP1,699,90.46,78.68,2.72,1-18

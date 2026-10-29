@@ -1,0 +1,17 @@
+{
+  "notebook": "BIOT6900_Module4_Assignment.ipynb",
+  "execution": "PASS",
+  "fresh_kernel": true,
+  "code_cells_executed": 11,
+  "error_outputs": 0,
+  "legacy_summary_values_reproduced": true,
+  "python": "3.11.16 | packaged by Anaconda, Inc. | (main, Aug 27 2026, 14:36:16) [MSC v.1942 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26300-SP0",
+  "numpy": "2.4.6",
+  "pandas": "2.3.3",
+  "kernel": "python3 (biot6900 environment)",
+  "fpocket": "Retained outputs verified and reused; no new local run",
+  "finished_utc": "2026-10-29T06:16:16.979640+00:00",
+  "original_notebook_sha256": "ab41d98f1f8e94d3880aa5430c13354248681bb9c72313e28ee11965a3303590",
+  "executed_notebook_sha256": "6aeff4019100033f46c39a38a5dad571dae29639149827ae4f7ffe033726f400"
+}

@@ -1,0 +1,20 @@
+{
+  "notebook": "BIOT6900_Module2_Assignment2_LUAD.ipynb",
+  "execution": "PASS",
+  "kernel": "python3 (biot6900 Python 3.11.16)",
+  "working_directory": "module_2",
+  "executed_code_cells": 17,
+  "error_outputs": 0,
+  "notebook_sha256": "808cc82bbf6609551754d5785ea8b277064a8b806c6951b7855674b2655efbe4",
+  "original_notebook_sha256": "4a53411563f9a553a3bb1ce86ad4dfa7af2c5e6983f505ad564c0650a087bfe7",
+  "targets_byte_unchanged": true,
+  "integrated_rows": 6758,
+  "concordant": 4918,
+  "discordant": 1840,
+  "figures": [
+    "Figures/luad_multiomics_integration.png",
+    "Figures/luad_multiomics_integration.pdf",
+    "Figures/luad_evidence_venn.png",
+    "Figures/luad_evidence_venn.pdf"
+  ]
+}

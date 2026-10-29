@@ -1,0 +1,55 @@
+[
+  {
+    "identifier": "ENSG00000130723",
+    "url": "https://rest.ensembl.org/lookup/id/ENSG00000130723?content-type=application%2Fjson",
+    "status_code": 400,
+    "response": {
+      "error": "ID 'ENSG00000130723' not found"
+    }
+  },
+  {
+    "identifier": "ENSG00000215695",
+    "url": "https://rest.ensembl.org/lookup/id/ENSG00000215695?content-type=application%2Fjson",
+    "status_code": 200,
+    "response": {
+      "start": 15659713,
+      "display_name": "RSC1A1",
+      "species": "homo_sapiens",
+      "logic_name": "havana_homo_sapiens",
+      "source": "havana",
+      "description": "regulator of solute carriers 1 [Source:HGNC Symbol;Acc:HGNC:10458]",
+      "version": 2,
+      "assembly_name": "GRCh38",
+      "end": 15662033,
+      "seq_region_name": "1",
+      "strand": 1,
+      "biotype": "protein_coding",
+      "db_type": "core",
+      "canonical_transcript": "ENST00000345034.2",
+      "object_type": "Gene",
+      "id": "ENSG00000215695"
+    }
+  },
+  {
+    "identifier": "ENSG00000230626",
+    "url": "https://rest.ensembl.org/lookup/id/ENSG00000230626?content-type=application%2Fjson",
+    "status_code": 200,
+    "response": {
+      "source": "havana",
+      "logic_name": "havana_homo_sapiens",
+      "description": "novel transcript",
+      "biotype": "transcribed_processed_pseudogene",
+      "db_type": "core",
+      "species": "homo_sapiens",
+      "start": 129126518,
+      "id": "ENSG00000230626",
+      "object_type": "Gene",
+      "canonical_transcript": "ENST00000697967.1",
+      "strand": 1,
+      "assembly_name": "GRCh38",
+      "end": 129127715,
+      "version": 6,
+      "seq_region_name": "7"
+    }
+  }
+]

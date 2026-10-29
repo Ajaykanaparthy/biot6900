@@ -1,0 +1,23 @@
+{
+  "BIOT6900_Module4_Assignment.ipynb": "6aeff4019100033f46c39a38a5dad571dae29639149827ae4f7ffe033726f400",
+  "structure_assessment_luad.csv": "6a25f135dd6085fdc87aaaf6fa75a6c36bfc2f20ee9e1ac2a93e1273b568b0ed",
+  "README.md": "b0223baf2ded9450062637557572477d42d0512430c81855d09e957f3ff9a1c3",
+  "reproducibility/luad_structure_inputs.zip": "6eb6bfaccf7369b8020e5faad423a618b072815436139c2e04c853b36b568806",
+  "scripts/execute_assignment.py": "395f18de4f3395c7e7f8de9504edc22373a94b4f1e34ce0eff1641ac826125c8",
+  "scripts/structural_audit.py": "33607553013df9ab9369a906a7b2b42be7311f27d48f59b7c827b2e86b22ea91",
+  "Figures/captions.md": "3ed6b1cd17c652ffa1ce1e3dbf32c902ef1a85d8fe53b30f94e430fcd6bbaf6f",
+  "Figures/masp1_structure_confidence_pockets.png": "ed1b964f03f91b318f692bbd3fb064f9650cfdef4c4e59bd7b389c28ba73e5f6",
+  "Figures/scn7a_structure_confidence_pockets.png": "bb2488d366338e4f6d5188318f5a1072829e3344f607ae53a1c266ebf0b5d624",
+  "results/independent_validation.json": "7c5885cf09e5e536a5e17c1058bc32098e5f0c7b2c2292438feec7dfc3db8c38",
+  "results/masp1_confidence_components.csv": "a0d724a451372d277cfb4a22fb22960b89fb84b8c7963e5f9b04d8109888130c",
+  "results/notebook_validation.json": "d8bff8f01651fd0d2a10b6a09819054a0001e7b45f133a17382a5537ca9a47d8",
+  "results/p53_anchor_summary.json": "0709375322c34f9ecce661d433bb21aa536c0fb87485fe57031fc1c9a379da30",
+  "results/p53_anchor_verified.csv": "b58cd458f81eb5380902c2cbd2fed40e2cfd59b8c5a25be830a330649fe4d8ad",
+  "results/plddt_summary_luad.csv": "25b9a21fe4ee2e396e147c914477a99c363fea73d302fa0bade072bb4bb5d6c5",
+  "results/pocket_quality_luad.csv": "7664b7c7756a6295a8d411450dca588e4edaac4c0f018b4443bbc1f3b7148322",
+  "results/scn7a_confidence_components.csv": "410118c335c6f7bfde9812631068d66aa8de0ca087682cddc91dfa66e8908a29",
+  "results/scn7a_ligand_site_check.csv": "366ce9cf34e71cbff0d064eb41e3101e627adb7eb3bb0761424cfd6f86a047ae",
+  "results/structural_input_provenance.json": "cda56ded3d9853de780a7252983eea3a7522a4dcb2247f7c5990f5ed29ed51b5",
+  "results/top_five_pockets_luad.csv": "67345eb0ad12bb3e31cebe0ec04ad3ff8085a1ca0abfa66ec111211b8958f294",
+  "results/verified_structure_summary.csv": "b9d57a2ca5988e255b472902e5eea3db52edaa981eeb7601cbc25111f54c8b1f"
+}

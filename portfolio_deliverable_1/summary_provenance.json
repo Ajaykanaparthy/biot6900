@@ -1,0 +1,14 @@
+{
+  "purpose": "Synthesis of verified existing Modules 2-4; no new target ranking",
+  "targets": 15,
+  "structure_assessed": 2,
+  "missing_structure_values_imputed": false,
+  "input_sha256": {
+    "module_2/targets_luad.csv": "db06e00da11042270bc290cb17eeacde27651130139281519130187f4a3d1654",
+    "module_2/data/luad_integrated_gene_level.csv": "049831979b36454c3cd0cdfe005315f1ef83d56ab6a6722c7bde1ef617dff04b",
+    "module_3/targets_luad_w3.csv": "4f42f6a18d6ee9cd8771eed15036d75274b6a75e596e0a27eca943b0854eaefa",
+    "module_3/validation/target_mapping_and_scores.csv": "ef96c07a9a74fe8ec0adb43bf3229f1f34d958b4f0dce36a7f2f0bd21a33baac",
+    "module_4/results/verified_structure_summary.csv": "b9d57a2ca5988e255b472902e5eea3db52edaa981eeb7601cbc25111f54c8b1f"
+  },
+  "csv_sha256": "9c48966c316360f05df6c55917b81698215d2d8fe8102a299a3f1d3f2ced9095"
+}

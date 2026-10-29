@@ -3,6 +3,8 @@
 Name: Ajay Kanaparthy
 This repository contains my BIOT 6900 coursework, organized by module.
 
+[Portfolio Deliverable 1: audited LUAD evidence from Modules 2-4](portfolio_deliverable_1/README.md) brings together verified figures, target prioritization, reproducibility records, and scientific limitations for the separate portfolio report.
+
 ## Module guide
 
 | Folder | Topic | Contents |
@@ -52,8 +54,9 @@ Source: https://www.linkedomics.org/data_download/CPTAC-pancan-LUAD/
 ### Results
 
 - 6,758 genes survived the three-way join
-- 4,918 genes were RNA-protein concordant
-- Top 15 targets exported to `targets_luad.csv`
+- 4,918 genes were RNA-protein concordant; 1,840 were discordant
+- Top 15 targets exported to `targets_luad.csv`, with the original ranking preserved
+- Thresholded RNA/protein/genomic evidence overlap: 26 genes meet all three declared thresholds
 
 ### Files
 
@@ -64,6 +67,9 @@ Source: https://www.linkedomics.org/data_download/CPTAC-pancan-LUAD/
 - [targets_luad.csv](module_2/targets_luad.csv)
 - [LUAD multi-omics report](module_2/LUAD_Multi_Omics_Report.md)
 - [Module 2 data](module_2/data/)
+- [Verified methods, figure captions, and run instructions](module_2/README.md)
+- [Multi-omics integration figure](module_2/Figures/luad_multiomics_integration.png) and [three-set Venn](module_2/Figures/luad_evidence_venn.png)
+- [Integrated 6,758-gene table](module_2/data/luad_integrated_gene_level.csv)
 
 ## Module 3 — Computational Lab 3
 
@@ -85,6 +91,8 @@ Disease working on: Lung Adenocarcinoma (LUAD)
 - [targets_luad_w3.csv](module_3/targets_luad_w3.csv)
 - [Assignment instructions](module_3/Assignment%203-%20Target%20Triage%20with%20Protein%20Language%20Models.pdf)
 - [Module 3 data pack](module_3/data/)
+- [Verified methods and limitations](module_3/README.md)
+- [Independent mapping, leakage, family-split, anchor, and ranking audit](module_3/validation/validation_report.json)
 
 ### Issues
 
@@ -105,21 +113,25 @@ Disease working on: Lung Adenocarcinoma (LUAD)
 
 - SCN7A RMSD: 5.35 Å
 - MASP1 RMSD: 1.68 Å
-- Best pocket scores: SCN7A 0.982, MASP1 0.687
-- Structure assessment completed
+- Best kept-pocket fpocket Druggability Scores: SCN7A 0.982, MASP1 0.687
+- Structure assessment completed using verified retained pocket outputs; these scores are computational evidence
 
 ### Files
 
 - [Assignment notebook](module_4/BIOT6900_Module4_Assignment.ipynb)
 - [structure_assessment_luad.csv](module_4/structure_assessment_luad.csv)
+- [Verified structural methods, confidence rules, and limitations](module_4/README.md)
+- [SCN7A structural figure](module_4/Figures/scn7a_structure_confidence_pockets.png) and [MASP1 structural figure](module_4/Figures/masp1_structure_confidence_pockets.png)
+- [All 215 pocket assessments](module_4/results/pocket_quality_luad.csv)
+- [Portable retained structural inputs](module_4/reproducibility/luad_structure_inputs.zip)
 - [Assignment instructions](module_4/Assignment%204-b%20Structure-Based%20Druggability%20Assessment.pdf)
-- [Structure and fpocket files](module_4/structures/)
+- [Preserved structures and fpocket inputs](module_4/reproducibility/luad_structure_inputs.zip)
 - [PyMOL script](module_4/demo_pymol.pml) and [ChimeraX script](module_4/demo_chimerax.cxc)
 - `BIOT6900_Module4_LUAD_Report.pdf` is referenced in the coursework notes but is not present in this repository.
 
 ### Issues
 
-fpocket was unavailable on Windows. I ran it on Northeastern Explorer and transferred the results back to VS Code.
+fpocket was unavailable on Windows. I ran it on Northeastern Explorer and transferred the results back to VS Code. The portfolio audit verifies the retained pockets against the exact source-model atoms and recomputes pocket confidence; it does not claim a fresh fpocket run. The historical job log, command, and version are unavailable.
 
 
 ## Module 5 – Variant Interpretation
@@ -181,7 +193,7 @@ fpocket was unavailable on Windows. I ran it on Northeastern Explorer and transf
 
 **Work completed:** Analyzed structure confidence, compared predictions with experimental structures, identified binding pockets using fpocket, and assessed potential druggability.
 
-**Limitations:** Predicted structures do not fully represent protein movement, membrane environments, or interactions with binding partners.
+**Limitations:** Predicted structures do not fully represent protein movement, membrane environments, or interactions with binding partners. SCN7A inter-component PAE limits relative placement, and MASP1 structure 4IGD covers an engineered catalytic-region fragment rather than the full wild-type protein. Kept pockets are not experimentally validated binding sites.
 
 **Issues:** fpocket was unavailable on Windows. I ran it using Northeastern's Explorer cluster and analyzed the results locally.
 

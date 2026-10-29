@@ -1,0 +1,7 @@
+# Preserve exact audited bytes and source checksums across Git platforms.
+/.gitattributes -text
+/README.md -text
+/module_2/** -text
+/module_3/** -text
+/module_4/** -text
+/portfolio_deliverable_1/** -text
