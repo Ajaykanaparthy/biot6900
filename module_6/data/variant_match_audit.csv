@@ -1,0 +1,75 @@
+variant,genome_build,chromosome,position_1based,effect_allele,other_allele,published_weight,records_at_position,vcf_ids,vcf_ref_alt_pairs,palindromic,status,reason,dosage_orientation,missing_genotype_count
+chr1:199217117,GRCh37,1,199217117,A,G,0.37577305233542924,1,.,G/A,False,usable,Exact GRCh37 position and nonpalindromic biallelic allele-pair match; PASS; complete diploid GT,effect_is_ALT,0
+chr1:77967507,GRCh37,1,77967507,A,T,0.16934654251103465,1,.,T/A,True,excluded_strand_ambiguous,"A/T or C/G; independent forward-strand effect orientation unavailable, so excluded conservatively",,
+chr1:78450517,GRCh37,1,78450517,A,C,0.15291230907690817,1,.,C/A,False,usable,Exact GRCh37 position and nonpalindromic biallelic allele-pair match; PASS; complete diploid GT,effect_is_ALT,0
+chr2:119449740,GRCh37,2,119449740,A,T,0.5008947928926968,1,.,T/A,True,excluded_strand_ambiguous,"A/T or C/G; independent forward-strand effect orientation unavailable, so excluded conservatively",,
+chr2:140433325,GRCh37,2,140433325,A,G,-0.2151849501631918,1,.,G/A,False,usable,Exact GRCh37 position and nonpalindromic biallelic allele-pair match; PASS; complete diploid GT,effect_is_ALT,0
+chr2:174219118,GRCh37,2,174219118,G,C,0.10187590176076466,1,.,C/G,True,excluded_strand_ambiguous,"A/T or C/G; independent forward-strand effect orientation unavailable, so excluded conservatively",,
+chr2:24967724,GRCh37,2,24967724,C,T,0.08260445467288872,1,.,T/C,False,usable,Exact GRCh37 position and nonpalindromic biallelic allele-pair match; PASS; complete diploid GT,effect_is_ALT,0
+chr2:65520145,GRCh37,2,65520145,T,C,0.10543672465384708,1,.,C/T,False,usable,Exact GRCh37 position and nonpalindromic biallelic allele-pair match; PASS; complete diploid GT,effect_is_ALT,0
+chr2:67510377,GRCh37,2,67510377,C,T,0.24542961076979664,1,.,T/C,False,usable,Exact GRCh37 position and nonpalindromic biallelic allele-pair match; PASS; complete diploid GT,effect_is_ALT,0
+chr2:67967289,GRCh37,2,67967289,T,A,0.33722116824475606,1,.,A/T,True,excluded_strand_ambiguous,"A/T or C/G; independent forward-strand effect orientation unavailable, so excluded conservatively",,
+chr3:169489312,GRCh37,3,169489312,G,A,-0.08775784352646458,1,.,A/G,False,usable,Exact GRCh37 position and nonpalindromic biallelic allele-pair match; PASS; complete diploid GT,effect_is_ALT,0
+chr3:189357199,GRCh37,3,189357199,T,G,-0.11073934007670562,1,.,G/T,False,usable,Exact GRCh37 position and nonpalindromic biallelic allele-pair match; PASS; complete diploid GT,effect_is_ALT,0
+chr4:164070122,GRCh37,4,164070122,C,T,0.08464239349607693,1,.,T/C,False,usable,Exact GRCh37 position and nonpalindromic biallelic allele-pair match; PASS; complete diploid GT,effect_is_ALT,0
+chr4:180544399,GRCh37,4,180544399,A,T,0.3962514860850603,1,.,T/A,True,excluded_strand_ambiguous,"A/T or C/G; independent forward-strand effect orientation unavailable, so excluded conservatively",,
+chr4:76165275,GRCh37,4,76165275,A,G,-0.12176793533327955,1,.,G/A,False,usable,Exact GRCh37 position and nonpalindromic biallelic allele-pair match; PASS; complete diploid GT,effect_is_ALT,0
+chr5:1000156,GRCh37,5,1000156,A,G,0.25112821583333333,1,.,G/A,False,usable,Exact GRCh37 position and nonpalindromic biallelic allele-pair match; PASS; complete diploid GT,effect_is_ALT,0
+chr5:1249816,GRCh37,5,1249816,T,C,0.43509711802594847,1,.,C/T,False,usable,Exact GRCh37 position and nonpalindromic biallelic allele-pair match; PASS; complete diploid GT,effect_is_ALT,0
+chr5:1286516,GRCh37,5,1286516,A,C,-0.18174147627319678,1,.,C/A,False,usable,Exact GRCh37 position and nonpalindromic biallelic allele-pair match; PASS; complete diploid GT,effect_is_ALT,0
+chr5:1299392,GRCh37,5,1299392,A,G,-0.20482862814044753,1,.,G/A,False,usable,Exact GRCh37 position and nonpalindromic biallelic allele-pair match; PASS; complete diploid GT,effect_is_ALT,0
+chr5:1316340,GRCh37,5,1316340,T,C,0.4409396548004712,1,.,C/T,False,usable,Exact GRCh37 position and nonpalindromic biallelic allele-pair match; PASS; complete diploid GT,effect_is_ALT,0
+chr5:1320136,GRCh37,5,1320136,A,G,-0.15659020271164098,1,.,G/A,False,usable,Exact GRCh37 position and nonpalindromic biallelic allele-pair match; PASS; complete diploid GT,effect_is_ALT,0
+chr5:1359133,GRCh37,5,1359133,C,T,-0.1273191068985044,1,.,T/C,False,usable,Exact GRCh37 position and nonpalindromic biallelic allele-pair match; PASS; complete diploid GT,effect_is_ALT,0
+chr5:1360534,GRCh37,5,1360534,C,T,-0.15777653363095226,1,.,T/C,False,usable,Exact GRCh37 position and nonpalindromic biallelic allele-pair match; PASS; complete diploid GT,effect_is_ALT,0
+chr5:1482867,GRCh37,5,1482867,C,T,0.10735514975195154,1,.,T/C,False,usable,Exact GRCh37 position and nonpalindromic biallelic allele-pair match; PASS; complete diploid GT,effect_is_ALT,0
+chr5:1619135,GRCh37,5,1619135,C,G,-0.09463336999176596,1,.,G/C,True,excluded_strand_ambiguous,"A/T or C/G; independent forward-strand effect orientation unavailable, so excluded conservatively",,
+chr6:117792612,GRCh37,6,117792612,C,T,-0.08793811755376944,1,.,T/C,False,usable,Exact GRCh37 position and nonpalindromic biallelic allele-pair match; PASS; complete diploid GT,effect_is_ALT,0
+chr6:167390242,GRCh37,6,167390242,G,A,-0.07482019746105248,1,.,A/G,False,usable,Exact GRCh37 position and nonpalindromic biallelic allele-pair match; PASS; complete diploid GT,effect_is_ALT,0
+chr6:27555519,GRCh37,6,27555519,C,A,0.08319287131633411,1,.,A/C,False,usable,Exact GRCh37 position and nonpalindromic biallelic allele-pair match; PASS; complete diploid GT,effect_is_ALT,0
+chr6:29781049,GRCh37,6,29781049,G,T,-0.0951997082480218,1,.,T/G,False,usable,Exact GRCh37 position and nonpalindromic biallelic allele-pair match; PASS; complete diploid GT,effect_is_ALT,0
+chr6:30038352,GRCh37,6,30038352,G,A,0.0816116086122698,1,.,A/G,False,usable,Exact GRCh37 position and nonpalindromic biallelic allele-pair match; PASS; complete diploid GT,effect_is_ALT,0
+chr6:410848,GRCh37,6,410848,G,A,0.08612211722559439,1,.,A/G,False,usable,Exact GRCh37 position and nonpalindromic biallelic allele-pair match; PASS; complete diploid GT,effect_is_ALT,0
+chr8:12892386,GRCh37,8,12892386,A,T,-0.09651696679844299,1,.,T/A,True,excluded_strand_ambiguous,"A/T or C/G; independent forward-strand effect orientation unavailable, so excluded conservatively",,
+chr8:129170126,GRCh37,8,129170126,G,C,0.08096510213693599,1,.,C/G,True,excluded_strand_ambiguous,"A/T or C/G; independent forward-strand effect orientation unavailable, so excluded conservatively",,
+chr8:129535264,GRCh37,8,129535264,C,T,-0.10266845916240082,1,.,T/C,False,usable,Exact GRCh37 position and nonpalindromic biallelic allele-pair match; PASS; complete diploid GT,effect_is_ALT,0
+chr8:129965593,GRCh37,8,129965593,T,C,0.17309322391251228,1,.,C/T,False,usable,Exact GRCh37 position and nonpalindromic biallelic allele-pair match; PASS; complete diploid GT,effect_is_ALT,0
+chr8:27412953,GRCh37,8,27412953,A,G,-0.09570012452288532,1,.,G/A,False,usable,Exact GRCh37 position and nonpalindromic biallelic allele-pair match; PASS; complete diploid GT,effect_is_ALT,0
+chr8:32410110,GRCh37,8,32410110,A,G,-0.12430983811060588,1,.,G/A,False,usable,Exact GRCh37 position and nonpalindromic biallelic allele-pair match; PASS; complete diploid GT,effect_is_ALT,0
+chr9:21830157,GRCh37,9,21830157,G,A,0.15454665741778298,1,.,A/G,False,usable,Exact GRCh37 position and nonpalindromic biallelic allele-pair match; PASS; complete diploid GT,effect_is_ALT,0
+chr9:21857303,GRCh37,9,21857303,T,C,0.15674439466746606,1,.,C/T,False,usable,Exact GRCh37 position and nonpalindromic biallelic allele-pair match; PASS; complete diploid GT,effect_is_ALT,0
+chr9:21949527,GRCh37,9,21949527,G,T,-0.07728556624993466,1,.,T/G,False,usable,Exact GRCh37 position and nonpalindromic biallelic allele-pair match; PASS; complete diploid GT,effect_is_ALT,0
+chr9:22052068,GRCh37,9,22052068,G,A,0.16587785548446018,1,.,A/G,False,usable,Exact GRCh37 position and nonpalindromic biallelic allele-pair match; PASS; complete diploid GT,effect_is_ALT,0
+chr9:33421420,GRCh37,9,33421420,A,G,-0.0872419919428504,1,.,G/A,False,usable,Exact GRCh37 position and nonpalindromic biallelic allele-pair match; PASS; complete diploid GT,effect_is_ALT,0
+chr9:83702684,GRCh37,9,83702684,A,C,0.28967803244769713,1,.,C/A,False,usable,Exact GRCh37 position and nonpalindromic biallelic allele-pair match; PASS; complete diploid GT,effect_is_ALT,0
+chr10:105687632,GRCh37,10,105687632,C,A,0.15055782352764024,1,.,A/C,False,usable,Exact GRCh37 position and nonpalindromic biallelic allele-pair match; PASS; complete diploid GT,effect_is_ALT,0
+chr11:101154872,GRCh37,11,101154872,G,A,-0.10734552991279715,1,.,A/G,False,usable,Exact GRCh37 position and nonpalindromic biallelic allele-pair match; PASS; complete diploid GT,effect_is_ALT,0
+chr11:118125625,GRCh37,11,118125625,C,T,-0.10213861560760312,1,.,T/C,False,usable,Exact GRCh37 position and nonpalindromic biallelic allele-pair match; PASS; complete diploid GT,effect_is_ALT,0
+chr11:12387925,GRCh37,11,12387925,A,G,-0.11225519682436397,1,.,G/A,False,usable,Exact GRCh37 position and nonpalindromic biallelic allele-pair match; PASS; complete diploid GT,effect_is_ALT,0
+chr11:14956391,GRCh37,11,14956391,T,C,0.19477529441223274,1,.,C/T,False,usable,Exact GRCh37 position and nonpalindromic biallelic allele-pair match; PASS; complete diploid GT,effect_is_ALT,0
+chr11:9951257,GRCh37,11,9951257,A,G,-0.09153360843651763,1,.,G/A,False,usable,Exact GRCh37 position and nonpalindromic biallelic allele-pair match; PASS; complete diploid GT,effect_is_ALT,0
+chr12:20576874,GRCh37,12,20576874,G,A,0.20415914646272856,1,.,A/G,False,usable,Exact GRCh37 position and nonpalindromic biallelic allele-pair match; PASS; complete diploid GT,effect_is_ALT,0
+chr12:58834035,GRCh37,12,58834035,G,A,0.10941882945108145,1,.,A/G,False,usable,Exact GRCh37 position and nonpalindromic biallelic allele-pair match; PASS; complete diploid GT,effect_is_ALT,0
+chr12:64913237,GRCh37,12,64913237,T,G,0.09147307570904775,1,.,G/T,False,usable,Exact GRCh37 position and nonpalindromic biallelic allele-pair match; PASS; complete diploid GT,effect_is_ALT,0
+chr12:99216036,GRCh37,12,99216036,A,G,-0.1247645136838786,1,.,G/A,False,usable,Exact GRCh37 position and nonpalindromic biallelic allele-pair match; PASS; complete diploid GT,effect_is_ALT,0
+chr14:100086053,GRCh37,14,100086053,A,G,-0.16220131876493352,1,.,G/A,False,usable,Exact GRCh37 position and nonpalindromic biallelic allele-pair match; PASS; complete diploid GT,effect_is_ALT,0
+chr14:47235445,GRCh37,14,47235445,G,A,-0.07765066114935802,1,.,A/G,False,usable,Exact GRCh37 position and nonpalindromic biallelic allele-pair match; PASS; complete diploid GT,effect_is_ALT,0
+chr15:49310150,GRCh37,15,49310150,A,G,-0.08871099482061502,1,.,G/A,False,usable,Exact GRCh37 position and nonpalindromic biallelic allele-pair match; PASS; complete diploid GT,effect_is_ALT,0
+chr15:49376624,GRCh37,15,49376624,G,T,-0.15505796478581024,1,.,T/G,False,usable,Exact GRCh37 position and nonpalindromic biallelic allele-pair match; PASS; complete diploid GT,effect_is_ALT,0
+chr15:49741071,GRCh37,15,49741071,C,T,-0.11658543556573328,1,.,T/C,False,usable,Exact GRCh37 position and nonpalindromic biallelic allele-pair match; PASS; complete diploid GT,effect_is_ALT,0
+chr15:49992095,GRCh37,15,49992095,A,G,-0.10573379309495888,1,.,G/A,False,usable,Exact GRCh37 position and nonpalindromic biallelic allele-pair match; PASS; complete diploid GT,effect_is_ALT,0
+chr15:70431773,GRCh37,15,70431773,T,G,0.08294407371447314,1,.,G/T,False,usable,Exact GRCh37 position and nonpalindromic biallelic allele-pair match; PASS; complete diploid GT,effect_is_ALT,0
+chr15:78751962,GRCh37,15,78751962,T,G,-0.15189554505621874,1,.,G/T,False,usable,Exact GRCh37 position and nonpalindromic biallelic allele-pair match; PASS; complete diploid GT,effect_is_ALT,0
+chr15:78857986,GRCh37,15,78857986,G,C,0.24400788852239316,1,.,C/G,True,excluded_strand_ambiguous,"A/T or C/G; independent forward-strand effect orientation unavailable, so excluded conservatively",,
+chr15:78929372,GRCh37,15,78929372,A,G,0.1614777023511864,1,.,G/A,False,usable,Exact GRCh37 position and nonpalindromic biallelic allele-pair match; PASS; complete diploid GT,effect_is_ALT,0
+chr15:79124475,GRCh37,15,79124475,C,T,-0.10523459132969082,1,.,T/C,False,usable,Exact GRCh37 position and nonpalindromic biallelic allele-pair match; PASS; complete diploid GT,effect_is_ALT,0
+chr16:10740982,GRCh37,16,10740982,C,G,-0.11483764882001665,1,.,G/C,True,excluded_strand_ambiguous,"A/T or C/G; independent forward-strand effect orientation unavailable, so excluded conservatively",,
+chr16:82153538,GRCh37,16,82153538,C,A,0.0907083722565558,1,.,A/C,False,usable,Exact GRCh37 position and nonpalindromic biallelic allele-pair match; PASS; complete diploid GT,effect_is_ALT,0
+chr17:4943176,GRCh37,17,4943176,G,A,0.08522466702358253,1,.,A/G,False,usable,Exact GRCh37 position and nonpalindromic biallelic allele-pair match; PASS; complete diploid GT,effect_is_ALT,0
+chr17:70299958,GRCh37,17,70299958,G,T,-0.07670145895049928,1,.,T/G,False,usable,Exact GRCh37 position and nonpalindromic biallelic allele-pair match; PASS; complete diploid GT,effect_is_ALT,0
+chr18:9780846,GRCh37,18,9780846,T,C,0.08526714958450955,1,.,C/T,False,usable,Exact GRCh37 position and nonpalindromic biallelic allele-pair match; PASS; complete diploid GT,effect_is_ALT,0
+chr19:39813853,GRCh37,19,39813853,G,T,0.13016351230199533,1,.,T/G,False,usable,Exact GRCh37 position and nonpalindromic biallelic allele-pair match; PASS; complete diploid GT,effect_is_ALT,0
+chr19:41195170,GRCh37,19,41195170,C,T,0.07843012261841574,1,.,T/C,False,usable,Exact GRCh37 position and nonpalindromic biallelic allele-pair match; PASS; complete diploid GT,effect_is_ALT,0
+chr19:42096228,GRCh37,19,42096228,T,C,0.15108175606580349,1,.,C/T,False,usable,Exact GRCh37 position and nonpalindromic biallelic allele-pair match; PASS; complete diploid GT,effect_is_ALT,0
+chr19:49206462,GRCh37,19,49206462,T,C,0.07368462270182517,1,.,C/T,False,usable,Exact GRCh37 position and nonpalindromic biallelic allele-pair match; PASS; complete diploid GT,effect_is_ALT,0
+chr19:56032711,GRCh37,19,56032711,G,A,0.09776237257291016,1,.,A/G,False,usable,Exact GRCh37 position and nonpalindromic biallelic allele-pair match; PASS; complete diploid GT,effect_is_ALT,0
