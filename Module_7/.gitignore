@@ -1,0 +1,7 @@
+.env
+.env.*
+!.env.example
+Neo4j-*.txt
+neo4j-credentials*.txt
+.ipynb_checkpoints/
+__pycache__/

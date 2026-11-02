@@ -1,0 +1,167 @@
+{
+  "node_count": 27,
+  "edge_count": 30,
+  "node_counts": {
+    "gene": 17,
+    "disease": 2,
+    "phenotype": 2,
+    "pathway": 3,
+    "drug": 2,
+    "variant": 1
+  },
+  "relationship_counts": {
+    "ASSOCIATED_WITH": 17,
+    "PARTICIPATES_IN": 6,
+    "HAS_PHENOTYPE": 4,
+    "TARGETS": 2,
+    "OCCURS_IN": 1
+  },
+  "preexisting_nodes_preserved": 40,
+  "preexisting_relationships_preserved": 43,
+  "connected_to_neo4j": true,
+  "directed_pagerank_tied": true,
+  "rank_corr_module2": 0.913163544155121,
+  "rank_corr_module3": 0.9865747310381797,
+  "weighting": {
+    "directed_pagerank": 0.4,
+    "module2_multiomics": 0.4,
+    "module3_tractability": 0.2
+  },
+  "top_biomarkers": [
+    "ACTN2",
+    "COL6A6",
+    "SCN7A",
+    "TNR",
+    "ZNF536"
+  ],
+  "community_count": 5,
+  "selected_community": [
+    "COL11A1",
+    "COL6A6",
+    "Extracellular matrix organization",
+    "TNR",
+    "TNXB"
+  ],
+  "communities": [
+    [
+      "ABCA8",
+      "ACTN2",
+      "ADAMTS16",
+      "ERICH3",
+      "GDF10",
+      "Lung adenocarcinoma (LUAD)",
+      "MYH2",
+      "NOS1",
+      "SCN7A",
+      "SEMA5A",
+      "ZNF536"
+    ],
+    [
+      "COL11A1",
+      "COL6A6",
+      "Extracellular matrix organization",
+      "TNR",
+      "TNXB"
+    ],
+    [
+      "Cough",
+      "Dyspnea",
+      "Small-cell lung carcinoma",
+      "TOP1",
+      "Topotecan"
+    ],
+    [
+      "EGFR",
+      "EGFR L858R",
+      "Osimertinib",
+      "Signaling by EGFR"
+    ],
+    [
+      "Lectin pathway of complement activation",
+      "MASP1"
+    ]
+  ],
+  "two_hop_results": [
+    {
+      "drug": "Osimertinib",
+      "gene": "EGFR",
+      "status": "FDA-approved in specified EGFR-mutant NSCLC settings; 2024 label"
+    }
+  ],
+  "repurposing_results": [
+    {
+      "repurposing_candidate": "Topotecan",
+      "gene": "TOP1",
+      "via_disease": "Small-cell lung carcinoma",
+      "shared_symptoms": [
+        "Cough",
+        "Dyspnea"
+      ]
+    }
+  ],
+  "path_evidence": [
+    {
+      "nodes": [
+        "Topotecan",
+        "TOP1",
+        "Small-cell lung carcinoma",
+        "Cough",
+        "Lung adenocarcinoma (LUAD)"
+      ],
+      "relationships": [
+        "TARGETS",
+        "ASSOCIATED_WITH",
+        "HAS_PHENOTYPE",
+        "HAS_PHENOTYPE"
+      ],
+      "source_urls": [
+        "https://www.accessdata.fda.gov/drugsatfda_docs/label/2019/200582s003lbl.pdf",
+        "https://www.accessdata.fda.gov/drugsatfda_docs/label/2019/200582s003lbl.pdf",
+        "https://www.cancer.gov/types/lung/patient/small-cell-lung-treatment-pdq",
+        "https://www.cancer.gov/types/lung/patient/non-small-cell-lung-treatment-pdq"
+      ],
+      "confidence": [
+        "high",
+        "high",
+        "moderate",
+        "moderate"
+      ],
+      "gene_disease_evidence_type": "regulatory_therapeutic_target_context"
+    },
+    {
+      "nodes": [
+        "Topotecan",
+        "TOP1",
+        "Small-cell lung carcinoma",
+        "Dyspnea",
+        "Lung adenocarcinoma (LUAD)"
+      ],
+      "relationships": [
+        "TARGETS",
+        "ASSOCIATED_WITH",
+        "HAS_PHENOTYPE",
+        "HAS_PHENOTYPE"
+      ],
+      "source_urls": [
+        "https://www.accessdata.fda.gov/drugsatfda_docs/label/2019/200582s003lbl.pdf",
+        "https://www.accessdata.fda.gov/drugsatfda_docs/label/2019/200582s003lbl.pdf",
+        "https://www.cancer.gov/types/lung/patient/small-cell-lung-treatment-pdq",
+        "https://www.cancer.gov/types/lung/patient/non-small-cell-lung-treatment-pdq"
+      ],
+      "confidence": [
+        "high",
+        "high",
+        "moderate",
+        "moderate"
+      ],
+      "gene_disease_evidence_type": "regulatory_therapeutic_target_context"
+    }
+  ],
+  "confidence_criteria": {
+    "high": "Direct curated identifier/pathway assertion or regulatory drug mechanism/indication.",
+    "moderate": "Measured observational association in one cohort, or general clinical symptom description.",
+    "low": "An indirect hypothesis without direct experimental support; not used as an asserted molecular edge."
+  },
+  "patient_layer": "Omitted: no observed LUAD ages/outcomes in Module 6",
+  "pgx_context": "CYP2C19 Module 5 variants are not LUAD oncogenic mutations"
+}

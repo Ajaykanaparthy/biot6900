@@ -1,0 +1,28 @@
+community,name,kind
+0,ABCA8,gene
+0,ACTN2,gene
+0,ADAMTS16,gene
+0,ERICH3,gene
+0,GDF10,gene
+0,Lung adenocarcinoma (LUAD),disease
+0,MYH2,gene
+0,NOS1,gene
+0,SCN7A,gene
+0,SEMA5A,gene
+0,ZNF536,gene
+1,COL11A1,gene
+1,COL6A6,gene
+1,Extracellular matrix organization,pathway
+1,TNR,gene
+1,TNXB,gene
+2,Cough,phenotype
+2,Dyspnea,phenotype
+2,Small-cell lung carcinoma,disease
+2,TOP1,gene
+2,Topotecan,drug
+3,EGFR,gene
+3,EGFR L858R,variant
+3,Osimertinib,drug
+3,Signaling by EGFR,pathway
+4,Lectin pathway of complement activation,pathway
+4,MASP1,gene
