@@ -1,0 +1,28 @@
+{
+  "verified_removal": {
+    "status": "removed_verified_examples",
+    "nodes_deleted": 13,
+    "relationships_deleted": 13,
+    "other_nodes_preserved": 27,
+    "other_relationships_preserved": 30,
+    "before_database_nodes": 40,
+    "before_database_relationships": 43,
+    "after_database_nodes": 27,
+    "after_database_relationships": 30,
+    "other_data_identical": true,
+    "other_data_sha256": "92b755860d92933b9e6a3d375a401da057e60aadf6eab54f94f234554c1f0966"
+  },
+  "latest_verification": {
+    "status": "removed_verified_examples",
+    "nodes_deleted": 13,
+    "relationships_deleted": 13,
+    "other_nodes_preserved": 27,
+    "other_relationships_preserved": 30,
+    "before_database_nodes": 40,
+    "before_database_relationships": 43,
+    "after_database_nodes": 27,
+    "after_database_relationships": 30,
+    "other_data_identical": true,
+    "other_data_sha256": "92b755860d92933b9e6a3d375a401da057e60aadf6eab54f94f234554c1f0966"
+  }
+}

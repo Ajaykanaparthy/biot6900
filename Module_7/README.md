@@ -14,6 +14,7 @@ Ajay Kanaparthy. The professor's original `BIOT6900_Module7_Starter.ipynb` conta
 - `query_evidence.csv`
 - `analysis_summary.json`
 - `sources.csv`
+- `example_cleanup_audit.json`
 - `Module7_LUAD_Knowledge_Graph_Report.pdf`
 - `README.md`
 
@@ -61,7 +62,7 @@ This topotecan path suggests a testable hypothesis; shared symptoms do not estab
 4. Run **Kernel → Restart & Run All**. The connection cell verifies connectivity before database work; missing or invalid settings stop execution.
 5. Inspect the query tables, figure, CSVs and final four-page PDF. Output paths resolve to `Module_7` when launched from the repository or module directory.
 
-The notebook uses `MERGE` and uniqueness constraints. It does not reset or delete the existing database.
+Before `MERGE`, the notebook checks the exact original 13-node/13-relationship teaching fixture. It removes that fixture only when all labels, properties, directed relationships and isolation match. Any mismatch stops and rolls back. Verified relationships are deleted explicitly before plain node deletion; there is no database-wide reset or broad deletion. `example_cleanup_audit.json` records the removal and preservation checks. All non-example data are preserved, and later runs skip cleanup when the fixture is absent.
 
 ## Existing data and limitations
 
