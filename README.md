@@ -1,23 +1,28 @@
-# BIOT 6900 coursework
+# BIOT 6900 — AI-Powered Biotech Workflows
 
-Name: Ajay Kanaparthy
-This repository contains my BIOT 6900 coursework, organized by module.
+**Student:** Ajay Kanaparthy  
+**Program:** M.S. Biotechnology, Northeastern University  
+**Primary disease focus:** Lung adenocarcinoma (LUAD); Module 5 separately covers CYP2C19 pharmacogenomics.
+
+This repository contains my BIOT 6900 coursework, organized by module, including notebooks, supporting data, reports, and reproducibility records.
 
 [Portfolio Deliverable 1: audited LUAD evidence from Modules 2-4](portfolio_deliverable_1/README.md) brings together verified figures, target prioritization, reproducibility records, and scientific limitations for the separate portfolio report.
 
 ## Module guide
 
-| Folder | Topic | Contents |
+| Assignment | Topic | Main contents |
 | --- | --- | --- |
-| [module_1](module_1/) | Environment setup | Setup and scratch notebooks |
-| [module_2](module_2/) | Multi-omics target discovery | CPTAC/LUAD notebooks, raw downloads, `data/`, targets, and report |
-| [module_3](module_3/) | Protein language models | Toy and completed LUAD assignment notebooks, assignment PDF, `data/`, and re-ranked targets |
-| [module_4](module_4/) | Structure-based druggability | Lab and assignment notebooks, assignment PDF, `structures/`, fpocket results, and visualization scripts |
-| [module_5](module_5/) | Variant interpretation | Toy, real-data, and assignment notebooks, assignment PDF, CYP2C19 data and classified variants |
-| [module_6](module_6/README.md) | Polygenic Risk Score Portability (LUAD) | PGS003393, real 1000 Genomes genotypes, harmonized PRS analysis, figures, and disclosed simulated outcomes |
-| [Module_7](Module_7/) | Knowledge graphs | Neo4j real-model notebook |
+| [Module 1 notebook](module1_setup.ipynb) | Environment setup | Setup notebook at repository root |
+| [Module 2](module_2/) | LUAD multi-omics discovery | CPTAC data, target shortlist, figures, report and README |
+| [Module 3](module_3/) | Protein language models | LUAD target triage, model validation, rankings and README |
+| [Module 4](module_4/) | Structure-based druggability | SCN7A/MASP1 analysis, pocket figures and README |
+| [Module 5](module_5/) | CYP2C19 variant interpretation | Completed assignment, classified variants and README |
+| [Module 6](module_6/) | LUAD polygenic risk scores | Real genotypes, simulated outcomes, figures and report |
+| [Module 7](Module_7/) | LUAD knowledge graphs | Graded Neo4j notebook, exported graph, biomarker rankings and report |
+| [Module 9](Module_9/) | LUAD clinical NLP | Completed graded notebook, D1–D4 answers and leakage analysis |
+| [Portfolio Deliverable 1](portfolio_deliverable_1/) | Modules 2–4 synthesis | Verified evidence and prioritization audit; final PDF not in repository |
 
-Each module keeps its own notebooks and supporting files. `module_1/`, `module_2/`, and `module_3/` also contain `archive/root_copies/`, preserving the extra files previously stored at the repository root. These include an unfinished Module 3 template; the completed LUAD notebook remains directly in `module_3/`. No original copies were discarded.
+The original Module 1 notebook is stored at the repository root, not in a `module_1/` directory. Historical working copies for Modules 2–4 are preserved in their respective archive folders.
 
 ## Running the notebooks
 
@@ -35,7 +40,7 @@ For the Module 4 PyMOL script, use `module_4/` as the working directory. The Chi
 
 ## Module 1 - Environment setup
 
-Notebook: [module1_setup.ipynb](module_1/module1_setup.ipynb)
+Notebook: [module1_setup.ipynb](module1_setup.ipynb)
 
 The biot6900 conda environment is working with Python, Git, Jupyter, and BioPython. Parts A-C are completed. Part D will be completed after the assigned dataset/accession is provided in class
 
@@ -150,10 +155,9 @@ fpocket was unavailable on Windows. I ran it on Northeastern Explorer and transf
 **Files:**
 
 - [Assignment notebook](module_5/BIOT6900_Module5_Part3_Assignment.ipynb)
-- [Real-data notebook](module_5/BIOT6900_Module5_Part2_RealData.ipynb)
 - [pgx_classified_CYP2C19.csv](module_5/pgx_classified_CYP2C19.csv)
 - [Assignment instructions](module_5/Module%205%20Assignment-%20Variant%20Interpretation%20of%20CYP2C19.pdf)
-- [Module 5 data](module_5/data/)
+- [Module 5 README](module_5/README.md)
 - `Module5_CYP2C19_Report.pdf` is referenced in the coursework notes but is not present in this repository.
 
 ## Module 6 — Polygenic Risk Score Portability (LUAD)
@@ -168,12 +172,34 @@ fpocket was unavailable on Windows. I ran it on Northeastern Explorer and transf
 ### Files
 
 - [Original graded notebook](module_6/BIOT6900_Module6_Part3_Graded_Starter.ipynb)
-- [Toy PRS notebook](module_6/BIOT6900_Module6_Toy_PRS.ipynb)
-- [Real PRS notebook](module_6/BIOT6900_Module6_Part2_RealPRS.ipynb)
+- [Final LUAD PRS report](module_6/Module%206-%20Polygenic%20Risk%20Score%20Portability%20in%20Lung%20Adenocarcinoma%20%28LUAD%29.pdf)
+- [PRS distribution figure](module_6/Figures/prs_distribution.png) and [calibration figure](module_6/Figures/calibration.png)
 
-## Module 7 - Knowledge graphs
+## Module 7 — LUAD knowledge graphs
 
-- [Neo4j real-model notebook](Module_7/BIOT6900_Module7_RealModel_Neo4j.ipynb)
+I built and queried a Neo4j graph joining LUAD targets to pathways, phenotypes, variants, related diseases and drugs. The graded notebook contains two-hop drug and shared-phenotype queries, biomarker prioritization, and community detection. The analysis summary lists **ACTN2, COL6A6, SCN7A, TNR, and ZNF536** as its top five combined candidates.
+
+- [Completed graded notebook](Module_7/BIOT6900_Module7_Starter.ipynb)
+- [Graph visualization](Module_7/my_knowledge_graph.png) and [focused paths](Module_7/luad_focused_paths.png)
+- [Nodes](Module_7/nodes.csv), [relationships](Module_7/edges.csv), and [ranked biomarkers](Module_7/biomarkers.csv)
+- [Four-page interpretation report](Module_7/Module7_LUAD_Knowledge_Graph_Report.pdf) and [README](Module_7/README.md)
+
+**Consistency issue to resolve:** The module README and `analysis_summary.json` say **27 nodes / 30 relationships**, but the committed CSV exports contain **29 nodes / 29 relationships**. These are conflicting saved versions and must be reconciled before treating the counts as final.
+
+## Module 9 — Clinical NLP on LUAD
+
+The completed graded notebook generates **400 synthetic patient records**, extracts clinical concepts, and identifies outcome leakage. For post-obstructive pneumonia, naive keyword matching counted **155** patients versus **71** with assertion-aware detection.
+
+The cross-validated AUROC was **0.939** with all features, **0.839** after removing declared leakage, and **0.769** after removing all identified leakage. The hidden leak was `renal_replacement`, while `lactate_not_clearing` was retained as an early signal. Answers to **D1–D4** are included in the graded notebook.
+
+- [Completed graded notebook](Module_9/BIOT6900_Module9_Notebook3_Graded.ipynb)
+- [Module 9 ReadME.md](Module_9/ReadME.md)
+
+**Limitation and outstanding documentation:** These are simulated records and outcomes, not clinical validation. As of this update, `Module_9/ReadME.md` is on GitHub but **empty (0 bytes)**; it must be populated with the disease, data sources, work and limitations.
+
+## Portfolio Deliverable 1 — Modules 2–4 synthesis
+
+The [portfolio evidence folder](portfolio_deliverable_1/) combines the audits and supporting analyses from Modules 2–4, including a [prioritization summary](portfolio_deliverable_1/target_prioritization_summary.csv) and [methods documentation](portfolio_deliverable_1/README.md). The separate required **5–6 page final portfolio PDF is not present** in the committed folder; these support files do not replace it.
 
 ## Additional Data Sources and Limitations
 
